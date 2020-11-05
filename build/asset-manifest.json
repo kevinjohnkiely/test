@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/my-movie-match-app/static/css/main.e791aa1b.chunk.css",
+    "main.js": "/my-movie-match-app/static/js/main.64f7b36a.chunk.js",
+    "main.js.map": "/my-movie-match-app/static/js/main.64f7b36a.chunk.js.map",
+    "runtime~main.js": "/my-movie-match-app/static/js/runtime~main.40746f7c.js",
+    "runtime~main.js.map": "/my-movie-match-app/static/js/runtime~main.40746f7c.js.map",
+    "static/css/2.2a86faee.chunk.css": "/my-movie-match-app/static/css/2.2a86faee.chunk.css",
+    "static/js/2.26111634.chunk.js": "/my-movie-match-app/static/js/2.26111634.chunk.js",
+    "static/js/2.26111634.chunk.js.map": "/my-movie-match-app/static/js/2.26111634.chunk.js.map",
+    "index.html": "/my-movie-match-app/index.html",
+    "precache-manifest.70ce65e3edd6eed382fd822e435eefc0.js": "/my-movie-match-app/precache-manifest.70ce65e3edd6eed382fd822e435eefc0.js",
+    "service-worker.js": "/my-movie-match-app/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/my-movie-match-app/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.e791aa1b.chunk.css.map": "/my-movie-match-app/static/css/main.e791aa1b.chunk.css.map",
+    "static/media/all.min.css": "/my-movie-match-app/static/media/fa-solid-900.ec763292.svg"
+  }
+}
