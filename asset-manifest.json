@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/test/static/css/main.f5663167.chunk.css",
+    "main.js": "/test/static/js/main.fc7ab17f.chunk.js",
+    "main.js.map": "/test/static/js/main.fc7ab17f.chunk.js.map",
+    "runtime~main.js": "/test/static/js/runtime~main.eded8796.js",
+    "runtime~main.js.map": "/test/static/js/runtime~main.eded8796.js.map",
+    "static/css/2.2a86faee.chunk.css": "/test/static/css/2.2a86faee.chunk.css",
+    "static/js/2.26111634.chunk.js": "/test/static/js/2.26111634.chunk.js",
+    "static/js/2.26111634.chunk.js.map": "/test/static/js/2.26111634.chunk.js.map",
+    "index.html": "/test/index.html",
+    "precache-manifest.94253a0197a5e9485f245400f3b56fd6.js": "/test/precache-manifest.94253a0197a5e9485f245400f3b56fd6.js",
+    "service-worker.js": "/test/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/test/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.f5663167.chunk.css.map": "/test/static/css/main.f5663167.chunk.css.map",
+    "static/media/all.min.css": "/test/static/media/fa-solid-900.ec763292.svg"
+  }
+}
