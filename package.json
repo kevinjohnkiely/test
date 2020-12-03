@@ -2,7 +2,7 @@
   "name": "react-movie-match-kevin-kiely",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kevinjohnkiely.github.io/test",
+  "homepage": "https://movie-match-4fe2b.web.app",
   "dependencies": {
     "bootstrap": "^4.5.3",
     "firebase": "^8.0.0",

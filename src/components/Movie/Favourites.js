@@ -1,9 +1,12 @@
 import React, { useContext} from 'react'
-import {GlobalContext} from '../context/GlobalState'
+import { useAuth } from '../../context/AuthContext'
 import { MovieCard } from './MovieCard'
 
-export const Favourites = () => {
-    const {favourites} = useContext(GlobalContext)
+
+const Favourites = () => {
+
+    const { currentUser } = useAuth()
+    
     return (
         <div className="movie-page">
             <div className="container">
@@ -11,22 +14,23 @@ export const Favourites = () => {
                     <h1 className="heading">
                         My Favourite Movies
                     </h1>
-                    <span className="count-pill">
-                        {favourites.length} {favourites.length === 1 ? "Movie" : "Movies"}
-                    </span>
+                    {/* <span className="count-pill">
+                        {appFaves.length} {appFaves.length === 1 ? "Movie" : "Movies"}
+                    </span> */}
+                    <div>{currentUser.uid}</div>
                 </div>
 
-                {favourites.length > 0 ? (
+                {/* {appFaves.length > 0 ? (
                     <div className="movie-grid">
-                    {favourites.map(movie => (
+                    {appFaves.map(movie => (
                         <MovieCard movie={movie} />
                     ))}
                 </div>
-                ) : (<h2>No Movies yet !</h2>)}
+                ) : (<h2>No Movies yet !</h2>)} */}
                 
             </div>
             
         </div>
     )
 }
-
+export default Favourites

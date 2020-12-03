@@ -31,6 +31,8 @@ export const Login = () => {
             <Card>
                 <Card.Body>
                     <h2 className="text-center mb-4">Login</h2>
+                    <h6 className="text-center mb-4">For demo purposes use the following login 
+                    details: Email - test@test.com, Password - 123456</h6>
                     {error && <Alert variant="danger">{error}</Alert>}
                     <Form onSubmit={handleSubmit}>
                         <Form.Group id="email">

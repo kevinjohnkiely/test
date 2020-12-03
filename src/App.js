@@ -11,10 +11,11 @@ import PrivateRoute from './components/Auth/PrivateRoute'
 import ForgotPassword from './components/Auth/ForgotPassword';
 import UpdateProfile from './components/Auth/UpdateProfile';
 
+import Favourites from './components/Movie/Favourites'
+
 import { useAuth } from './context/AuthContext'
 
 import './lib/font-awesome/css/all.min.css'
-import { Test } from './components/Test';
 
 function App() {
 
@@ -27,20 +28,20 @@ function App() {
 
         <Switch>
           
-          {/* { currentUser ? null : <> */}
-          <Route exact path="/" component={Test} />
+          { currentUser ? null : <>
+          <Route exact path="/" component={Login} />
           <Route exact path="/login" component={Login} />  
           <Route exact path="/signup" component={Signup} />
           <Route exact path="/forgot-password" component={ForgotPassword} />
-          {/* </>
+          </>
             
-          } */}
+          } 
           <PrivateRoute path="/dashboard" component={Dashboard} />
           <PrivateRoute path="/update-profile" component={UpdateProfile} />
-          
+          <PrivateRoute path="/faves" component={Favourites} />
           <PrivateRoute path="/my-details" component={MyDetails} />
           <PrivateRoute path="/add" component={Add} />
-          {/* <Route exact path="/" component={Dashboard} /> */}
+          <Route exact path="/" component={Dashboard} />
           
         </Switch>
       </Router>
